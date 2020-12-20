@@ -2,10 +2,10 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid skills">
       <h2>Skills</h2>
       <div className="row">
-        <ul className="col-md-4">
+        <ul className="col-md-4 skills-list">
           <li>
             <svg viewBox="0 64">
               <path
@@ -104,7 +104,7 @@ function Skills() {
             </svg>
           </li>
         </ul>
-        <ul className="col-md-4">
+        <ul className="col-md-4 skills-list">
           <li>
             <svg viewBox="0 64">
               <g fill="#61DAFB">
@@ -164,7 +164,7 @@ function Skills() {
             </svg>
           </li>
         </ul>
-        <ul className="col-md-4">
+        <ul className="col-md-4 skills-list">
           <li>
             <svg viewBox="0 64">
               <path
