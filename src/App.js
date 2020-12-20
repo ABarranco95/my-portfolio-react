@@ -1,4 +1,5 @@
 import { BrowserRouter, Route } from 'react-router-dom';
+import React from 'react';
 
 
 import Home from './components/Home';
@@ -8,6 +9,7 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Projects from './components/Projects'
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -37,6 +39,7 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Route path="/"  component={Home} />
+        <Route path="/" component={About} />
         <Route path='/' component={Skills} />
         <Route path="/" 
           render={() => {
@@ -50,9 +53,8 @@ function App() {
             return <Projects project={targetProject} />
           }}
         />
-        <Route path="/" component={About} />
         <Route path="/" component={Contact} />
-
+        <Footer />
       </BrowserRouter>
     </div>
   );
