@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="container-fluid skills">
+    <div className="container-fluid skills" id='skills'>
       <h2>Skills</h2>
       <div className="row">
         <ul className="col-md-4 skills-list">

@@ -4,7 +4,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="home-div container-fluid">
+    <div className="home-div container-fluid" id='home'>
       <div className='row'>
         <div className="intro-div">
           <h1>
@@ -16,9 +16,9 @@ function Home() {
             <br />
             <br />
             <br />
-          <div className='in-progress'>
+          {/* <div className='in-progress'>
               Under Construction...
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
