@@ -110,8 +110,8 @@ function Portfolio(props) {
             <li class="list-group-item">Bootstrap</li>
           </ul>
           <ul class="list-group list-group-flush">
-            <li>Team Project (4 members)</li>
-            <li class="list-group-item"><a href='https://barber-shop-react.herokuapp.com/'>(Project in development still. ETA Jan. 5th)</a></li>
+            <li class="list-group-item">Team Project</li>
+            <li class="list-group-item">Project in development still. ETA Jan. 5th</li>
             <li class="list-group-item"><a href='https://github.com/codebypaul/fitness_app_client'>Github Code</a></li>
           </ul>
         </div>
