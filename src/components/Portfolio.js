@@ -55,10 +55,65 @@ function Portfolio(props) {
             <li class="list-group-item"><a href='https://my-munch-app.herokuapp.com/'>Deployed App</a></li>
             <li class="list-group-item"><a href='https://github.com/ABarranco95/munch-app-project'>Github Code</a></li>
           </ul>
+        </div>
+      </div>
+
+      <div className="col-lg-">
+        <div class="card">
+          <img
+            src="https://i.ibb.co/BKMNYRD/Screen-Shot-2020-12-26-at-10-23-09-PM.png"
+            class="card-img-top"
+            alt="KaliKutz"
+          />
           <div class="card-body">
-            {/* <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> */}
+            <h3 class="card-title">KaliKutz</h3>
+            <p class="card-text">
+              A simple website for a local barber shop using React. Users are able to book appointments, see the typs of services and read about KaliKutz.
+            </p>
           </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Bootstrap</li>
+          </ul>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href='https://barber-shop-react.herokuapp.com/'>Deployed App (Project in development still.)</a></li>
+            <li class="list-group-item"><a href='https://github.com/ABarranco95/barbers-react-app'>Github Code</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="col-lg-">
+        <div class="card">
+          <img
+            src="https://i.ibb.co/yypcb4k/Screen-Shot-2020-12-23-at-12-24-10-PM.png"
+            class="card-img-top"
+            alt="GeneralFit"
+          />
+          <div class="card-body">
+            <h3 class="card-title">GeneralFit</h3>
+            <p class="card-text">
+              GeneralFit is a web application that allows users to create accounts and pick a fitness plan. There are workouts and nutrition results available. A user will have a tailored plan for them upon signup and expected results. 
+
+              My part in this project is working on the client side and occasionally helping debug anything on the backend.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">Javascript</li>
+            <li class="list-group-item">Express</li>
+            <li class="list-group-item">NodeJS</li>
+            <li class="list-group-item">API</li>
+            <li class="list-group-item">MongoDB</li>
+            <li class="list-group-item">HTML/CSS</li>
+            <li class="list-group-item">Bootstrap</li>
+          </ul>
+          <ul class="list-group list-group-flush">
+            <li>Team Project (4 members)</li>
+            <li class="list-group-item"><a href='https://barber-shop-react.herokuapp.com/'>(Project in development still. ETA Jan. 5th)</a></li>
+            <li class="list-group-item"><a href='https://github.com/codebypaul/fitness_app_client'>Github Code</a></li>
+          </ul>
         </div>
       </div>
     </div>
