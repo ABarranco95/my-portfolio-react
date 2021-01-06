@@ -5,8 +5,6 @@ function About() {
     <div className="about-div" id='about'>
       <h2>About</h2>
       <div className="container">
-        <div className="row">
-          <div className="col">
             <p className="about-me-info">
               Hi! I am a Jr. Software Engineer with an incredibe passion of
               passion for web development. I took advantage of all the time
@@ -16,8 +14,7 @@ function About() {
               I have learned however, is the ability to keep learning. ABC
               (Always Be Coding).
             </p>
-          </div>
-        </div>
+
       </div>
     </div>
   );

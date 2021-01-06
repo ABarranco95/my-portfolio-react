@@ -5,7 +5,6 @@ import React from 'react';
 function Home() {
   return (
     <div className="home-div container-fluid" id='home'>
-      <div className='row'>
         <div className="intro-div">
           <h1>
             Hello, I'm <span className="highlight">Angel Barranco</span>
@@ -16,11 +15,8 @@ function Home() {
             <br />
             <br />
             <br />
-          {/* <div className='in-progress'>
-              Under Construction...
-          </div> */}
         </div>
-      </div>
+
     </div>
   );
 }

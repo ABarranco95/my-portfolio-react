@@ -7,6 +7,38 @@ function Portfolio(props) {
       <div className="col-lg-">
         <div class="card">
           <img
+            src="https://i.ibb.co/yypcb4k/Screen-Shot-2020-12-23-at-12-24-10-PM.png"
+            class="card-img-top"
+            alt="GeneralFit"
+          />
+          <div class="card-body">
+            <h3 class="card-title">GeneralFit</h3>
+            <p class="card-text">
+              GeneralFit is a web application that allows users to create accounts and pick a fitness plan. There are workouts and nutrition results available. A user will have a tailored plan for them upon signup and expected results. 
+
+              My part in this project is working on the client side and occasionally helping debug anything on the backend.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">Javascript</li>
+            <li class="list-group-item">Express</li>
+            <li class="list-group-item">NodeJS</li>
+            <li class="list-group-item">API</li>
+            <li class="list-group-item">MongoDB</li>
+            <li class="list-group-item">HTML/CSS</li>
+            <li class="list-group-item">Bootstrap</li>
+          </ul>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="https://generalfit.herokuapp.com/">Deployed App</a></li>
+            <li class="list-group-item"><a href='https://github.com/codebypaul/fitness_app_client'>Github Code</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="col-lg-">
+        <div class="card">
+          <img
             src="https://i.ibb.co/zh05XZn/Screen-Shot-2020-12-20-at-2-56-46-PM.png"
             class="card-img-top"
             alt="ping-pong"
@@ -80,39 +112,6 @@ function Portfolio(props) {
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href='https://barber-shop-react.herokuapp.com/'>Deployed App (Project in development still.)</a></li>
             <li class="list-group-item"><a href='https://github.com/ABarranco95/barbers-react-app'>Github Code</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="col-lg-">
-        <div class="card">
-          <img
-            src="https://i.ibb.co/yypcb4k/Screen-Shot-2020-12-23-at-12-24-10-PM.png"
-            class="card-img-top"
-            alt="GeneralFit"
-          />
-          <div class="card-body">
-            <h3 class="card-title">GeneralFit</h3>
-            <p class="card-text">
-              GeneralFit is a web application that allows users to create accounts and pick a fitness plan. There are workouts and nutrition results available. A user will have a tailored plan for them upon signup and expected results. 
-
-              My part in this project is working on the client side and occasionally helping debug anything on the backend.
-            </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">React</li>
-            <li class="list-group-item">Javascript</li>
-            <li class="list-group-item">Express</li>
-            <li class="list-group-item">NodeJS</li>
-            <li class="list-group-item">API</li>
-            <li class="list-group-item">MongoDB</li>
-            <li class="list-group-item">HTML/CSS</li>
-            <li class="list-group-item">Bootstrap</li>
-          </ul>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Team Project</li>
-            <li class="list-group-item">Project in development still. ETA Jan. 5th</li>
-            <li class="list-group-item"><a href='https://github.com/codebypaul/fitness_app_client'>Github Code</a></li>
           </ul>
         </div>
       </div>

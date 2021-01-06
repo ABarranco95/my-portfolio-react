@@ -38,6 +38,10 @@ a {
   background-color: #252934;
   border: 1px solid #252934;
 }
+.job-title {
+  width: 100%;
+  font-size: 130%;
+}
 
 .home-div {
   margin: 0 auto;
@@ -178,4 +182,9 @@ a {
   font-weight: 600;
   padding: 6px;
   
+}
+
+.about-me-info {
+  font-size: 150%;
+  width: 60%;
 }
