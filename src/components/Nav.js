@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function Nav() {
   return (
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container nav-container">
         <Link
           activeClass="active"
           to="home"
