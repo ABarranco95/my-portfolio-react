@@ -7,7 +7,7 @@ function Home() {
     <div className="home-div container-fluid" id='home'>
         <div className="intro-div">
           <h1>
-            New personal website -----> <span className="highlight">www.angelbarranco.com</span>
+            New personal website -----> <a href="www.angelbarranco.com"><span className="highlight">www.angelbarranco.com</span></a>
           </h1>
 
           <p className="job-title">Software Engineer</p>
