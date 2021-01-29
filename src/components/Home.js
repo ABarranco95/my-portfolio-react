@@ -7,7 +7,7 @@ function Home() {
     <div className="home-div container-fluid" id='home'>
         <div className="intro-div">
           <h1>
-            Hello, I'm <span className="highlight">Angel Barranco</span>
+            New personal website -----> <span className="highlight">www.angelbarranco.com</span>
           </h1>
 
           <p className="job-title">Software Engineer</p>
